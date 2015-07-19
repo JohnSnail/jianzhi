@@ -1,0 +1,568 @@
+***************
+*** 589,982 ****
+  		FE28FA9D8909096A3640E171 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+  		FE81BE7C46A7B68357A95953 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboShare.h"; path = "libWeiboSDK/WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+  		FF2BAE674CE9E2D447D274FD /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+- >>>>>>> theirs
+  /* End PBXFileReference section */
+  
+  /* Begin PBXFrameworksBuildPhase section */
+- <<<<<<< mine
+- 		0A0590E3AB43990567B82D70 /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+- 				4D3A88C40CE53CC1721D5E74 /* Foundation.framework in Frameworks */,
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+- 		0E26374B2DB81DCB98B42BAE /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+- 		2887EB1461FCFBE546C05581 /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+- 				AC2D3E17B42B00F35DCAC382 /* Foundation.framework in Frameworks */,
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+- 		3C57BDEB529A3A2BC017265C /* Frameworks */ = {
+- =======
+- 		10B7970C272CA35EBD067030 /* Frameworks */ = {
+- >>>>>>> theirs
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+- <<<<<<< mine
+- 				3CFFA769FE6CD1F7B9A3F376 /* Foundation.framework in Frameworks */,
+- =======
+- 				ADAC447CD373EBEB54E4FD51 /* Foundation.framework in Frameworks */,
+- >>>>>>> theirs
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+- <<<<<<< mine
+- 		70AF3BE49C95664528A70665 /* Frameworks */ = {
+- =======
+- 		14925736F5E1673DEF95F76C /* Frameworks */ = {
+- >>>>>>> theirs
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+- <<<<<<< mine
+- 				D870248140685EEAD490CE83 /* Foundation.framework in Frameworks */,
+- =======
+- 				9B67CE03BA463BB4E358C218 /* Foundation.framework in Frameworks */,
+- >>>>>>> theirs
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+- <<<<<<< mine
+- 		768EE7FB049E158D24604266 /* Frameworks */ = {
+- =======
+- 		55AC05BBD14CE65D97AB2DEA /* Frameworks */ = {
+- >>>>>>> theirs
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+- <<<<<<< mine
+- 				91FE992EFA369D931041A0AF /* CoreGraphics.framework in Frameworks */,
+- 				4F2F045EF674A246EEEB02E3 /* Foundation.framework in Frameworks */,
+- 				F4DA455FDD2E13866E235C47 /* MobileCoreServices.framework in Frameworks */,
+- 				8940F3BD99600E8477716DD3 /* Security.framework in Frameworks */,
+- 				CBB15536B72498D6940D3253 /* SystemConfiguration.framework in Frameworks */,
+- =======
+- 				D3ED08E743FC99E115052EA7 /* Foundation.framework in Frameworks */,
+- >>>>>>> theirs
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+- <<<<<<< mine
+- 		862785E46D1428FAA6C6FC38 /* Frameworks */ = {
+- =======
+- 		6417AB870E1E07350337F0AE /* Frameworks */ = {
+- >>>>>>> theirs
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+- <<<<<<< mine
+- 				7D08EF190CE3E79138E8A6B6 /* Foundation.framework in Frameworks */,
+- =======
+- 				DE5F3250DA15143FADFAB250 /* Foundation.framework in Frameworks */,
+- 				A9930CFA8F982FEF18C899CC /* QuartzCore.framework in Frameworks */,
+- >>>>>>> theirs
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+- <<<<<<< mine
+- 		8C3BF6411D143F2DEA3610ED /* Frameworks */ = {
+- =======
+- 		77B11C1F826951D9A4D0B4C1 /* Frameworks */ = {
+- >>>>>>> theirs
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+- <<<<<<< mine
+- 				13AB1F5F802379E6FEE35316 /* Foundation.framework in Frameworks */,
+- =======
+- 				38F61DE562F6FABD48FD5103 /* AVFoundation.framework in Frameworks */,
+- 				75A3E45331C5E859B9BA104B /* Foundation.framework in Frameworks */,
+- >>>>>>> theirs
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+- <<<<<<< mine
+- 		B38CA1EFFD356D490119D5A2 /* Frameworks */ = {
+- =======
+- 		8399A62B85D6D7C0C97BD6A3 /* Frameworks */ = {
+- >>>>>>> theirs
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+- <<<<<<< mine
+- 				17C3EBADF1057CFE7F73C8B4 /* AVFoundation.framework in Frameworks */,
+- 				06390A07BFE2B625B21B4509 /* Foundation.framework in Frameworks */,
+- =======
+- 				6FD722B270BC201A486ABC7D /* Foundation.framework in Frameworks */,
+- >>>>>>> theirs
+- 			);
+- 			runOnlyForDeploymentPostprocessing = 0;
+- 		};
+- <<<<<<< mine
+- 		BC521DB7ECDA7CFA42B356FF /* Frameworks */ = {
+- =======
+- 		9A01E3FAE23749F94EA24568 /* Frameworks */ = {
+- >>>>>>> theirs
+- 			isa = PBXFrameworksBuildPhase;
+- 			buildActionMask = 2147483647;
+- 			files = (
+- <<<<<<< mine
+- 				FD70820F9233D81C32F33514 /* Foundation.framework in Frameworks */,
+- =======
+- 				BBF8A73F1B60243CD27746C3 /* Foundation.framework in Frameworks */,
+- 				DCEEB90DB31AB080BB1409E5 /* ImageIO.framework in Frameworks */,
+- >>>>>>> theirs
+- 			);
+- 			runOnlyForDeploymentPostprocessing = 0;
+- 		};
+- <<<<<<< mine
+- 		C1D3BCDA0DD6E16CA4F25ACC /* Frameworks */ = {
+- =======
+- 		A467DF5C6234002EF914A914 /* Frameworks */ = {
+- >>>>>>> theirs
+- 			isa = PBXFrameworksBuildPhase;
+- 			buildActionMask = 2147483647;
+- 			files = (
+- <<<<<<< mine
+- 				D358069F57FCF12AC483B45A /* Foundation.framework in Frameworks */,
+- =======
+- 				06D0E74CC2DE18A4CC5D3B23 /* Foundation.framework in Frameworks */,
+- >>>>>>> theirs
+- 			);
+- 			runOnlyForDeploymentPostprocessing = 0;
+- 		};
+- <<<<<<< mine
+- 		D82080998DA6AA6540AD2E51 /* Frameworks */ = {
+- =======
+- 		B18ED0B8B2C5FFD8BEF716BB /* Frameworks */ = {
+- >>>>>>> theirs
+- 			isa = PBXFrameworksBuildPhase;
+- 			buildActionMask = 2147483647;
+- 			files = (
+- <<<<<<< mine
+- 				0E5E92B72A05DB919AD18019 /* Foundation.framework in Frameworks */,
+- 				51EDDD12002CD8F858ADB4B7 /* QuartzCore.framework in Frameworks */,
+- =======
+  				7C6C932C538C4BC1371206B2 /* CoreGraphics.framework in Frameworks */,
+  				6EFFB28BF49355337EEF68AC /* Foundation.framework in Frameworks */,
+  				8F506CBAA07D623B0CA8B567 /* MobileCoreServices.framework in Frameworks */,
+  				E30A49FBD41605E27F12F897 /* Security.framework in Frameworks */,
+  				E476AD028C013DD254534814 /* SystemConfiguration.framework in Frameworks */,
+- >>>>>>> theirs
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+- <<<<<<< mine
+- 		E201504A20E456B0EF8668AB /* Frameworks */ = {
+- =======
+  		CDDADC99BE9D7658EC3E5114 /* Frameworks */ = {
+- >>>>>>> theirs
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+- <<<<<<< mine
+- 				E8D6CC7726B57270BF1E6B14 /* Foundation.framework in Frameworks */,
+- 				5ECA0B8AEC1939ADF922AA52 /* ImageIO.framework in Frameworks */,
+- =======
+  				AAC20AE779663F111200549B /* Foundation.framework in Frameworks */,
+- >>>>>>> theirs
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+- <<<<<<< mine
+- 		E7CD7DAFB073AC447D348B36 /* Frameworks */ = {
+- =======
+  		D84240B84EFF551A3C0D3D3C /* Frameworks */ = {
+- >>>>>>> theirs
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+- <<<<<<< mine
+- 				57B8D0458171DA1BD9A55683 /* Foundation.framework in Frameworks */,
+- 				CC1DDC61E7C385411A707598 /* Security.framework in Frameworks */,
+- =======
+  				81CA621C0D1369B419D999C3 /* Foundation.framework in Frameworks */,
+  				27C923D7EE40595C99012E7D /* Security.framework in Frameworks */,
+- >>>>>>> theirs
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+- <<<<<<< mine
+- 		E8EB66318881D3CFAB551CF0 /* Frameworks */ = {
+- =======
+  		EEE1544D4747131020F3B80F /* Frameworks */ = {
+- >>>>>>> theirs
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+- <<<<<<< mine
+- 				35DDD0C03FAD9A6CBF53F1DD /* CoreGraphics.framework in Frameworks */,
+- 				1BF5E1A417332DA1EA1CEA45 /* CoreTelephony.framework in Frameworks */,
+- 				F775D1CA5F369FE4B6623DE7 /* Foundation.framework in Frameworks */,
+- 				FCC9CAC227876E6040910A1C /* MobileCoreServices.framework in Frameworks */,
+- 				77618B685CE71418B263FB27 /* SystemConfiguration.framework in Frameworks */,
+- 				4EFB23828DA7A7E68B885032 /* TencentOpenAPI.framework in Frameworks */,
+- =======
+- >>>>>>> theirs
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+- <<<<<<< mine
+- 		EEBD321E43CC01A9B4DDB56C /* Frameworks */ = {
+- =======
+  		F83F6CC55C7919E62A43BD95 /* Frameworks */ = {
+- >>>>>>> theirs
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+- <<<<<<< mine
+- 				F66460A53DA784EAAC96E440 /* Foundation.framework in Frameworks */,
+- =======
+  				AC23BE122DB150885FB25238 /* Foundation.framework in Frameworks */,
+- >>>>>>> theirs
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+  /* End PBXFrameworksBuildPhase section */
+  
+  /* Begin PBXGroup section */
+- <<<<<<< mine
+- 		053B119390DDBDB568AB787D /* UMengAnalytics */ = {
+  			isa = PBXGroup;
+  			children = (
+- 				2F54C858BD5DC67098777CB5 /* MobClick.h */,
+- 				7E09F7F02B50CFD186841BDC /* Support Files */,
+- 			);
+- 			path = UMengAnalytics;
+- 			sourceTree = "<group>";
+- 		};
+- 		05E98A8C6BD586FC0C1F851D /* NSURLSession */ = {
+- =======
+- 		08020B75C5D58491EE08C3C8 /* Support Files */ = {
+- >>>>>>> theirs
+- 			isa = PBXGroup;
+- 			children = (
+- <<<<<<< mine
+- 				F8C3060E1009B6F3A13EE06F /* AFHTTPSessionManager.h */,
+- 				C3D69C76EEF08359D368D9F2 /* AFHTTPSessionManager.m */,
+- 				3EB126C57C48A1D06BBB24A4 /* AFURLSessionManager.h */,
+- 				08AFF60ED590A1C3A5DBC650 /* AFURLSessionManager.m */,
+- =======
+  				34CD0CC63E1C73CCE960B8E5 /* Pods-Qiniu.xcconfig */,
+  				E88A02ABE20CBA0B5744F583 /* Pods-Qiniu-Private.xcconfig */,
+  				74F362A6DB70F20467D34C5C /* Pods-Qiniu-dummy.m */,
+  				BFBB856B3519A2FA0ADB697A /* Pods-Qiniu-prefix.pch */,
+- >>>>>>> theirs
+  			);
+- <<<<<<< mine
+- 			name = NSURLSession;
+- =======
+  			name = "Support Files";
+  			path = "../Target Support Files/Pods-Qiniu";
+- >>>>>>> theirs
+  			sourceTree = "<group>";
+  		};
+- <<<<<<< mine
+- 		0BB542105386D855ADF67685 /* Security */ = {
+- =======
+  		085CD7655F94191CC73FE482 /* NSURLConnection */ = {
+- >>>>>>> theirs
+  			isa = PBXGroup;
+  			children = (
+- <<<<<<< mine
+- 				BD5463EA001B492694514D32 /* AFSecurityPolicy.h */,
+- 				FF2D438ED1B9D9606716F40A /* AFSecurityPolicy.m */,
+- =======
+  				2165640DA939287D719E45B9 /* AFHTTPRequestOperation.h */,
+  				6E366CAF7185C4423CDAE9DD /* AFHTTPRequestOperation.m */,
+  				98D02FACE811BC0F8E68EC44 /* AFHTTPRequestOperationManager.h */,
+  				23BC5A4B9D6FD82FDCCF3031 /* AFHTTPRequestOperationManager.m */,
+  				296F0253043C3FE834E45C63 /* AFURLConnectionOperation.h */,
+  				368D0B498CEC1DD29626E8B5 /* AFURLConnectionOperation.m */,
+- >>>>>>> theirs
+  			);
+- <<<<<<< mine
+- 			name = Security;
+- =======
+  			name = NSURLConnection;
+- >>>>>>> theirs
+  			sourceTree = "<group>";
+  		};
+- <<<<<<< mine
+- 		0F738BB87DB822B04418C3E4 /* Pods */ = {
+- =======
+  		0B21E0E7333989D76C326C81 /* Support Files */ = {
+- >>>>>>> theirs
+  			isa = PBXGroup;
+  			children = (
+- <<<<<<< mine
+- 				620C686165E09F73A3B65885 /* Pods-acknowledgements.markdown */,
+- 				F3A17334EED4C1F008FEE659 /* Pods-acknowledgements.plist */,
+- 				E77BFC2380C3B3A4A0339246 /* Pods-dummy.m */,
+- 				41A62A582D2F98B559488EB5 /* Pods-environment.h */,
+- 				D7EF8F678DC6C75778F4A67B /* Pods-resources.sh */,
+- 				CA6B3727E63724E24FDCD9B2 /* Pods.debug.xcconfig */,
+- 				B0DBA3638229F16CFB47B82C /* Pods.release.xcconfig */,
+- =======
+  				42D0E9B3B24E6FA9BDBECAD0 /* Pods-SGNavigationProgress.xcconfig */,
+  				2DD1E30ACCF8CF65DE981985 /* Pods-SGNavigationProgress-Private.xcconfig */,
+  				4DBF3322DF29A352BE58F7AD /* Pods-SGNavigationProgress-dummy.m */,
+  				72E34F1C4E7D213FEF0D8BC4 /* Pods-SGNavigationProgress-prefix.pch */,
+- >>>>>>> theirs
+  			);
+- <<<<<<< mine
+- 			name = Pods;
+- 			path = "Target Support Files/Pods";
+- =======
+  			name = "Support Files";
+  			path = "../Target Support Files/Pods-SGNavigationProgress";
+- >>>>>>> theirs
+  			sourceTree = "<group>";
+  		};
+- <<<<<<< mine
+- 		1B3172B707C0EA2803BCDC16 /* Support Files */ = {
+- =======
+  		1AC7DEB920D58FC40B3843D0 /* Frameworks */ = {
+- >>>>>>> theirs
+  			isa = PBXGroup;
+  			children = (
+- <<<<<<< mine
+- 				D56BAB8843A75C8C5F2CE9AA /* Pods-UIActionSheet+Blocks.xcconfig */,
+- 				BD069ECCA06D583A69298650 /* Pods-UIActionSheet+Blocks-Private.xcconfig */,
+- 				2411C05E4385BBB5FC6F8138 /* Pods-UIActionSheet+Blocks-dummy.m */,
+- 				939ECF24F16BF6DDC2A4E005 /* Pods-UIActionSheet+Blocks-prefix.pch */,
+- =======
+  				C889EF5735DEB12594A2F9FC /* libWeiboSDK.a */,
+- >>>>>>> theirs
+  			);
+- <<<<<<< mine
+- 			name = "Support Files";
+- 			path = "../Target Support Files/Pods-UIActionSheet+Blocks";
+- =======
+  			name = Frameworks;
+- >>>>>>> theirs
+  			sourceTree = "<group>";
+  		};
+- <<<<<<< mine
+- 		2173DB466CA0C699F28FD26B /* Support Files */ = {
+- =======
+  		1CA50776565CE72343F2AEAB /* Pods */ = {
+- >>>>>>> theirs
+  			isa = PBXGroup;
+  			children = (
+- <<<<<<< mine
+- 				9722A5076987B457FE32FBAD /* Pods-JSONKit.xcconfig */,
+- 				3B1BC92A915E214011991DF5 /* Pods-JSONKit-Private.xcconfig */,
+- 				20F1D647660FBA08C203FDA3 /* Pods-JSONKit-dummy.m */,
+- 				5F50CB01288A00FF097C46E6 /* Pods-JSONKit-prefix.pch */,
+- =======
+  				88CE797136CA23B9C0CB4BDA /* AFNetworking */,
+  				49A4DA997FAEC421360EC9E5 /* JSONKit */,
+  				88837591CF8EE0D7AE3C4A90 /* MJRefresh */,
+--- 589,759 ----
+  		FE28FA9D8909096A3640E171 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+  		FE81BE7C46A7B68357A95953 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboShare.h"; path = "libWeiboSDK/WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+  		FF2BAE674CE9E2D447D274FD /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+  /* End PBXFileReference section */
+  
+  /* Begin PBXFrameworksBuildPhase section */
++ 		10B7970C272CA35EBD067030 /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
++ 				ADAC447CD373EBEB54E4FD51 /* Foundation.framework in Frameworks */,
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
++ 		14925736F5E1673DEF95F76C /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
++ 				9B67CE03BA463BB4E358C218 /* Foundation.framework in Frameworks */,
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
++ 		55AC05BBD14CE65D97AB2DEA /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
++ 				D3ED08E743FC99E115052EA7 /* Foundation.framework in Frameworks */,
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
++ 		6417AB870E1E07350337F0AE /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
++ 				DE5F3250DA15143FADFAB250 /* Foundation.framework in Frameworks */,
++ 				A9930CFA8F982FEF18C899CC /* QuartzCore.framework in Frameworks */,
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
++ 		77B11C1F826951D9A4D0B4C1 /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
++ 				38F61DE562F6FABD48FD5103 /* AVFoundation.framework in Frameworks */,
++ 				75A3E45331C5E859B9BA104B /* Foundation.framework in Frameworks */,
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
++ 		8399A62B85D6D7C0C97BD6A3 /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
++ 				6FD722B270BC201A486ABC7D /* Foundation.framework in Frameworks */,
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
++ 		9A01E3FAE23749F94EA24568 /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
++ 				BBF8A73F1B60243CD27746C3 /* Foundation.framework in Frameworks */,
++ 				DCEEB90DB31AB080BB1409E5 /* ImageIO.framework in Frameworks */,
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
++ 		A467DF5C6234002EF914A914 /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
++ 				06D0E74CC2DE18A4CC5D3B23 /* Foundation.framework in Frameworks */,
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
++ 		B18ED0B8B2C5FFD8BEF716BB /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+  				7C6C932C538C4BC1371206B2 /* CoreGraphics.framework in Frameworks */,
+  				6EFFB28BF49355337EEF68AC /* Foundation.framework in Frameworks */,
+  				8F506CBAA07D623B0CA8B567 /* MobileCoreServices.framework in Frameworks */,
+  				E30A49FBD41605E27F12F897 /* Security.framework in Frameworks */,
+  				E476AD028C013DD254534814 /* SystemConfiguration.framework in Frameworks */,
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+  		CDDADC99BE9D7658EC3E5114 /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+  				AAC20AE779663F111200549B /* Foundation.framework in Frameworks */,
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+  		D84240B84EFF551A3C0D3D3C /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+  				81CA621C0D1369B419D999C3 /* Foundation.framework in Frameworks */,
+  				27C923D7EE40595C99012E7D /* Security.framework in Frameworks */,
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+  		EEE1544D4747131020F3B80F /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+  		F83F6CC55C7919E62A43BD95 /* Frameworks */ = {
+  			isa = PBXFrameworksBuildPhase;
+  			buildActionMask = 2147483647;
+  			files = (
+  				AC23BE122DB150885FB25238 /* Foundation.framework in Frameworks */,
+  			);
+  			runOnlyForDeploymentPostprocessing = 0;
+  		};
+  /* End PBXFrameworksBuildPhase section */
+  
+  /* Begin PBXGroup section */
++ 		08020B75C5D58491EE08C3C8 /* Support Files */ = {
+  			isa = PBXGroup;
+  			children = (
+  				34CD0CC63E1C73CCE960B8E5 /* Pods-Qiniu.xcconfig */,
+  				E88A02ABE20CBA0B5744F583 /* Pods-Qiniu-Private.xcconfig */,
+  				74F362A6DB70F20467D34C5C /* Pods-Qiniu-dummy.m */,
+  				BFBB856B3519A2FA0ADB697A /* Pods-Qiniu-prefix.pch */,
+  			);
+  			name = "Support Files";
+  			path = "../Target Support Files/Pods-Qiniu";
+  			sourceTree = "<group>";
+  		};
+  		085CD7655F94191CC73FE482 /* NSURLConnection */ = {
+  			isa = PBXGroup;
+  			children = (
+  				2165640DA939287D719E45B9 /* AFHTTPRequestOperation.h */,
+  				6E366CAF7185C4423CDAE9DD /* AFHTTPRequestOperation.m */,
+  				98D02FACE811BC0F8E68EC44 /* AFHTTPRequestOperationManager.h */,
+  				23BC5A4B9D6FD82FDCCF3031 /* AFHTTPRequestOperationManager.m */,
+  				296F0253043C3FE834E45C63 /* AFURLConnectionOperation.h */,
+  				368D0B498CEC1DD29626E8B5 /* AFURLConnectionOperation.m */,
+  			);
+  			name = NSURLConnection;
+  			sourceTree = "<group>";
+  		};
+  		0B21E0E7333989D76C326C81 /* Support Files */ = {
+  			isa = PBXGroup;
+  			children = (
+  				42D0E9B3B24E6FA9BDBECAD0 /* Pods-SGNavigationProgress.xcconfig */,
+  				2DD1E30ACCF8CF65DE981985 /* Pods-SGNavigationProgress-Private.xcconfig */,
+  				4DBF3322DF29A352BE58F7AD /* Pods-SGNavigationProgress-dummy.m */,
+  				72E34F1C4E7D213FEF0D8BC4 /* Pods-SGNavigationProgress-prefix.pch */,
+  			);
+  			name = "Support Files";
+  			path = "../Target Support Files/Pods-SGNavigationProgress";
+  			sourceTree = "<group>";
+  		};
+  		1AC7DEB920D58FC40B3843D0 /* Frameworks */ = {
+  			isa = PBXGroup;
+  			children = (
+  				C889EF5735DEB12594A2F9FC /* libWeiboSDK.a */,
+  			);
+  			name = Frameworks;
+  			sourceTree = "<group>";
+  		};
+  		1CA50776565CE72343F2AEAB /* Pods */ = {
+  			isa = PBXGroup;
+  			children = (
+  				88CE797136CA23B9C0CB4BDA /* AFNetworking */,
+  				49A4DA997FAEC421360EC9E5 /* JSONKit */,
+  				88837591CF8EE0D7AE3C4A90 /* MJRefresh */,

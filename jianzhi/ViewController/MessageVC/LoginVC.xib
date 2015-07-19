@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginVC">
+            <connections>
+                <outlet property="QQLoginBtn" destination="ccV-5j-uAL" id="xOb-mg-loI"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="lKW-jO-Wah">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="583"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4R4-55-fUl">
+                    <rect key="frame" x="19" y="23" width="44" height="44"/>
+                    <state key="normal" image="back">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="backMethod:" destination="-1" eventType="touchUpInside" id="Ejc-au-pUu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccV-5j-uAL">
+                    <rect key="frame" x="53" y="387" width="215" height="39"/>
+                    <state key="normal" image="qq">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="QQLoginAction:" destination="-1" eventType="touchUpInside" id="lM3-9V-yf3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6GS-Oh-41F">
+                    <rect key="frame" x="53" y="304" width="215" height="39"/>
+                    <state key="normal" image="weibo">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="weiboLoginAction:" destination="-1" eventType="touchUpInside" id="B3Z-qk-ZeM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="lKW-jO-Wah" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Cxl-Tl-SEt"/>
+                <constraint firstAttribute="trailing" secondItem="lKW-jO-Wah" secondAttribute="trailing" id="EKd-pA-Foj"/>
+                <constraint firstAttribute="bottom" secondItem="lKW-jO-Wah" secondAttribute="bottom" constant="-15" id="FlX-Dr-HRX"/>
+                <constraint firstItem="4R4-55-fUl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="19" id="IHN-jW-aJH"/>
+                <constraint firstAttribute="bottom" secondItem="ccV-5j-uAL" secondAttribute="bottom" constant="142" id="JyY-VK-rNr"/>
+                <constraint firstItem="ccV-5j-uAL" firstAttribute="centerX" secondItem="lKW-jO-Wah" secondAttribute="centerX" id="bN2-60-r4H"/>
+                <constraint firstItem="6GS-Oh-41F" firstAttribute="leading" secondItem="ccV-5j-uAL" secondAttribute="leading" id="cgk-hC-M5n"/>
+                <constraint firstItem="4R4-55-fUl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="23" id="fcN-xz-dqg"/>
+                <constraint firstItem="lKW-jO-Wah" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="gqV-eS-RVI"/>
+                <constraint firstItem="lKW-jO-Wah" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qbO-Kw-xK3"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="lKW-jO-Wah" secondAttribute="bottom" constant="-15" id="rQ6-6y-pMg"/>
+                <constraint firstItem="lKW-jO-Wah" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tRJ-de-zJL"/>
+                <constraint firstItem="ccV-5j-uAL" firstAttribute="top" secondItem="6GS-Oh-41F" secondAttribute="bottom" constant="44" id="zOV-hn-lAg"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="262" y="279"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="44" height="44"/>
+        <image name="login" width="320" height="568"/>
+        <image name="qq" width="215" height="39"/>
+        <image name="weibo" width="215" height="39"/>
+    </resources>
+</document>

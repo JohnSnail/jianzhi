@@ -1,0 +1,27 @@
+***************
+*** 74,85 ****
+                    moduleName = "jianzhi"
+                    usesParentBreakpointCondition = "Yes"
+                    urlString = "file:///Users/yafeiz/360%E4%BA%91%E7%9B%98/jobs/jianzhi/jianzhi/Model/Manager/AppManager.m"
+-                   timestampString = "455523136.841534"
+                    startingColumnNumber = "9223372036854775807"
+                    endingColumnNumber = "9223372036854775807"
+                    startingLineNumber = "84"
+                    endingLineNumber = "84"
+-                   offsetFromSymbolStart = "1496">
+                 </Location>
+                 <Location
+                    shouldBeEnabled = "Yes"
+--- 74,85 ----
+                    moduleName = "jianzhi"
+                    usesParentBreakpointCondition = "Yes"
+                    urlString = "file:///Users/yafeiz/360%E4%BA%91%E7%9B%98/jobs/jianzhi/jianzhi/Model/Manager/AppManager.m"
++                   timestampString = "455382685.85985"
+                    startingColumnNumber = "9223372036854775807"
+                    endingColumnNumber = "9223372036854775807"
+                    startingLineNumber = "84"
+                    endingLineNumber = "84"
++                   offsetFromSymbolStart = "1579">
+                 </Location>
+                 <Location
+                    shouldBeEnabled = "Yes"

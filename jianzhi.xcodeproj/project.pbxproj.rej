@@ -1,0 +1,242 @@
+***************
+*** 125,130 ****
+  		93D8A8831B00F94200908D47 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D8A8821B00F94200908D47 /* MapKit.framework */; };
+  		93D8A8851B00F94B00908D47 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D8A8841B00F94B00908D47 /* CoreLocation.framework */; };
+  		93D8A8871B00F95E00908D47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D8A8861B00F95E00908D47 /* CoreGraphics.framework */; };
+  		93DF66601ADEB6B400E7CA04 /* DisscussVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DF665E1ADEB6B400E7CA04 /* DisscussVC.m */; };
+  		93DF66611ADEB6B400E7CA04 /* DisscussVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DF665F1ADEB6B400E7CA04 /* DisscussVC.xib */; };
+  		93DF67491ADEB6C400E7CA04 /* NSObject+UIViewCate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DF66641ADEB6C300E7CA04 /* NSObject+UIViewCate.m */; };
+--- 125,131 ----
+  		93D8A8831B00F94200908D47 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D8A8821B00F94200908D47 /* MapKit.framework */; };
+  		93D8A8851B00F94B00908D47 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D8A8841B00F94B00908D47 /* CoreLocation.framework */; };
+  		93D8A8871B00F95E00908D47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D8A8861B00F95E00908D47 /* CoreGraphics.framework */; };
++ 
+  		93DF66601ADEB6B400E7CA04 /* DisscussVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DF665E1ADEB6B400E7CA04 /* DisscussVC.m */; };
+  		93DF66611ADEB6B400E7CA04 /* DisscussVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DF665F1ADEB6B400E7CA04 /* DisscussVC.xib */; };
+  		93DF67491ADEB6C400E7CA04 /* NSObject+UIViewCate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DF66641ADEB6C300E7CA04 /* NSObject+UIViewCate.m */; };
+***************
+*** 612,617 ****
+  		93D8A8821B00F94200908D47 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+  		93D8A8841B00F94B00908D47 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+  		93D8A8861B00F95E00908D47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+  		93DF665D1ADEB6B400E7CA04 /* DisscussVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisscussVC.h; sourceTree = "<group>"; };
+  		93DF665E1ADEB6B400E7CA04 /* DisscussVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisscussVC.m; sourceTree = "<group>"; };
+  		93DF665F1ADEB6B400E7CA04 /* DisscussVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisscussVC.xib; sourceTree = "<group>"; };
+--- 613,619 ----
+  		93D8A8821B00F94200908D47 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+  		93D8A8841B00F94B00908D47 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+  		93D8A8861B00F95E00908D47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
++ 
+  		93DF665D1ADEB6B400E7CA04 /* DisscussVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisscussVC.h; sourceTree = "<group>"; };
+  		93DF665E1ADEB6B400E7CA04 /* DisscussVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisscussVC.m; sourceTree = "<group>"; };
+  		93DF665F1ADEB6B400E7CA04 /* DisscussVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisscussVC.xib; sourceTree = "<group>"; };
+***************
+*** 1517,1522 ****
+  				93A378C11B083E4300E13596 /* Rectangle586@3x.png */,
+  				93A378B81B083CE600E13596 /* face@2x.png */,
+  				93A378B91B083CE600E13596 /* face@3x.png */,
+  				93D8A7E21AF914CD00908D47 /* face_test.png */,
+  				93D8A7D81AF90F8D00908D47 /* senditem.png */,
+  				93D8A7D91AF90F8D00908D47 /* biaoqingitem.png */,
+--- 1519,1526 ----
+  				93A378C11B083E4300E13596 /* Rectangle586@3x.png */,
+  				93A378B81B083CE600E13596 /* face@2x.png */,
+  				93A378B91B083CE600E13596 /* face@3x.png */,
++ 				93DC92DD1B25D74F009DE851 /* left.png */,
++ 				93DC92DE1B25D74F009DE851 /* right.png */,
+  				93D8A7E21AF914CD00908D47 /* face_test.png */,
+  				93D8A7D81AF90F8D00908D47 /* senditem.png */,
+  				93D8A7D91AF90F8D00908D47 /* biaoqingitem.png */,
+***************
+*** 2003,2013 ****
+  				TargetAttributes = {
+  					93AB255E1AD6A00D00E46976 = {
+  						CreatedOnToolsVersion = 6.2;
+- 						DevelopmentTeam = EKT7TDBE5W;
+  					};
+  					93AB25771AD6A00E00E46976 = {
+  						CreatedOnToolsVersion = 6.2;
+- 						DevelopmentTeam = EKT7TDBE5W;
+  						TestTargetID = 93AB255E1AD6A00D00E46976;
+  					};
+  				};
+--- 2007,2015 ----
+  				TargetAttributes = {
+  					93AB255E1AD6A00D00E46976 = {
+  						CreatedOnToolsVersion = 6.2;
+  					};
+  					93AB25771AD6A00E00E46976 = {
+  						CreatedOnToolsVersion = 6.2;
+  						TestTargetID = 93AB255E1AD6A00D00E46976;
+  					};
+  				};
+***************
+*** 2203,2208 ****
+  				93DF680E1ADEB6C400E7CA04 /* 90@2x.png in Resources */,
+  				93A378BF1B083D1900E13596 /* tab@3x.png in Resources */,
+  				93D8A82A1AFBA20800908D47 /* TimeCustom.xib in Resources */,
+  				93DF67CB1ADEB6C400E7CA04 /* 60.png in Resources */,
+  				93D8A86B1B00F5B400908D47 /* anjuke_icon_to_position1.png in Resources */,
+  				93DF67FF1ADEB6C400E7CA04 /* 84.png in Resources */,
+--- 2205,2211 ----
+  				93DF680E1ADEB6C400E7CA04 /* 90@2x.png in Resources */,
+  				93A378BF1B083D1900E13596 /* tab@3x.png in Resources */,
+  				93D8A82A1AFBA20800908D47 /* TimeCustom.xib in Resources */,
++ 				93DC92DF1B25D74F009DE851 /* left.png in Resources */,
+  				93DF67CB1ADEB6C400E7CA04 /* 60.png in Resources */,
+  				93D8A86B1B00F5B400908D47 /* anjuke_icon_to_position1.png in Resources */,
+  				93DF67FF1ADEB6C400E7CA04 /* 84.png in Resources */,
+***************
+*** 2219,2224 ****
+  				93DF67611ADEB6C400E7CA04 /* 12.png in Resources */,
+  				93DF67CC1ADEB6C400E7CA04 /* 60@2x.png in Resources */,
+  				93DF681D1ADEB6C400E7CA04 /* 98.png in Resources */,
+  				93D8A8691B00F5B400908D47 /* anjuke_icon_itis_position@2x.png in Resources */,
+  				93DF67F01ADEB6C400E7CA04 /* 77@2x.png in Resources */,
+  				93DF68151ADEB6C400E7CA04 /* 94.png in Resources */,
+--- 2222,2228 ----
+  				93DF67611ADEB6C400E7CA04 /* 12.png in Resources */,
+  				93DF67CC1ADEB6C400E7CA04 /* 60@2x.png in Resources */,
+  				93DF681D1ADEB6C400E7CA04 /* 98.png in Resources */,
++ 				93DC92E01B25D74F009DE851 /* right.png in Resources */,
+  				93D8A8691B00F5B400908D47 /* anjuke_icon_itis_position@2x.png in Resources */,
+  				93DF67F01ADEB6C400E7CA04 /* 77@2x.png in Resources */,
+  				93DF68151ADEB6C400E7CA04 /* 94.png in Resources */,
+***************
+*** 2624,2631 ****
+  			buildSettings = {
+  				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+  				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+- 				CODE_SIGN_IDENTITY = "iPhone Developer";
+- 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+  				FRAMEWORK_SEARCH_PATHS = (
+  					"$(inherited)",
+  					"$(PROJECT_DIR)",
+--- 2628,2635 ----
+  			buildSettings = {
+  				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+  				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
++ 				CODE_SIGN_IDENTITY = "iPhone Developer: Xiaoyu Zheng (4WRCFE8J2R)";
++ 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xiaoyu Zheng (4WRCFE8J2R)";
+  				FRAMEWORK_SEARCH_PATHS = (
+  					"$(inherited)",
+  					"$(PROJECT_DIR)",
+***************
+*** 2670,2676 ****
+  					"-fobjc-arc",
+  				);
+  				PRODUCT_NAME = "$(TARGET_NAME)";
+- 				PROVISIONING_PROFILE = "";
+  			};
+  			name = Debug;
+  		};
+--- 2674,2680 ----
+  					"-fobjc-arc",
+  				);
+  				PRODUCT_NAME = "$(TARGET_NAME)";
++ 				PROVISIONING_PROFILE = "f9591887-27c9-487b-b89a-bc4835ad9aee";
+  			};
+  			name = Debug;
+  		};
+***************
+*** 2680,2687 ****
+  			buildSettings = {
+  				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+  				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+- 				CODE_SIGN_IDENTITY = "iPhone Developer";
+- 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+  				FRAMEWORK_SEARCH_PATHS = (
+  					"$(inherited)",
+  					"$(PROJECT_DIR)",
+--- 2684,2691 ----
+  			buildSettings = {
+  				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+  				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
++ 				CODE_SIGN_IDENTITY = "iPhone Developer: Xiaoyu Zheng (4WRCFE8J2R)";
++ 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xiaoyu Zheng (4WRCFE8J2R)";
+  				FRAMEWORK_SEARCH_PATHS = (
+  					"$(inherited)",
+  					"$(PROJECT_DIR)",
+***************
+*** 2726,2732 ****
+  					"-fobjc-arc",
+  				);
+  				PRODUCT_NAME = "$(TARGET_NAME)";
+- 				PROVISIONING_PROFILE = "";
+  			};
+  			name = Release;
+  		};
+--- 2730,2736 ----
+  					"-fobjc-arc",
+  				);
+  				PRODUCT_NAME = "$(TARGET_NAME)";
++ 				PROVISIONING_PROFILE = "f9591887-27c9-487b-b89a-bc4835ad9aee";
+  			};
+  			name = Release;
+  		};
+***************
+*** 2735,2742 ****
+  			baseConfigurationReference = 8165E3681DB6BAB6E8F06F38 /* Pods.debug.xcconfig */;
+  			buildSettings = {
+  				BUNDLE_LOADER = "$(TEST_HOST)";
+- 				CODE_SIGN_IDENTITY = "iPhone Developer";
+- 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+  				FRAMEWORK_SEARCH_PATHS = (
+  					"$(SDKROOT)/Developer/Library/Frameworks",
+  					"$(inherited)",
+--- 2739,2744 ----
+  			baseConfigurationReference = 8165E3681DB6BAB6E8F06F38 /* Pods.debug.xcconfig */;
+  			buildSettings = {
+  				BUNDLE_LOADER = "$(TEST_HOST)";
+  				FRAMEWORK_SEARCH_PATHS = (
+  					"$(SDKROOT)/Developer/Library/Frameworks",
+  					"$(inherited)",
+***************
+*** 2748,2754 ****
+  				INFOPLIST_FILE = jianzhiTests/Info.plist;
+  				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+  				PRODUCT_NAME = "$(TARGET_NAME)";
+- 				PROVISIONING_PROFILE = "";
+  				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jianzhi.app/jianzhi";
+  			};
+  			name = Debug;
+--- 2750,2755 ----
+  				INFOPLIST_FILE = jianzhiTests/Info.plist;
+  				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+  				PRODUCT_NAME = "$(TARGET_NAME)";
+  				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jianzhi.app/jianzhi";
+  			};
+  			name = Debug;
+***************
+*** 2758,2765 ****
+  			baseConfigurationReference = C884F1CE14836D30E4D5F50B /* Pods.release.xcconfig */;
+  			buildSettings = {
+  				BUNDLE_LOADER = "$(TEST_HOST)";
+- 				CODE_SIGN_IDENTITY = "iPhone Developer";
+- 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+  				FRAMEWORK_SEARCH_PATHS = (
+  					"$(SDKROOT)/Developer/Library/Frameworks",
+  					"$(inherited)",
+--- 2759,2764 ----
+  			baseConfigurationReference = C884F1CE14836D30E4D5F50B /* Pods.release.xcconfig */;
+  			buildSettings = {
+  				BUNDLE_LOADER = "$(TEST_HOST)";
+  				FRAMEWORK_SEARCH_PATHS = (
+  					"$(SDKROOT)/Developer/Library/Frameworks",
+  					"$(inherited)",
+***************
+*** 2767,2773 ****
+  				INFOPLIST_FILE = jianzhiTests/Info.plist;
+  				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+  				PRODUCT_NAME = "$(TARGET_NAME)";
+- 				PROVISIONING_PROFILE = "";
+  				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jianzhi.app/jianzhi";
+  			};
+  			name = Release;
+--- 2766,2771 ----
+  				INFOPLIST_FILE = jianzhiTests/Info.plist;
+  				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+  				PRODUCT_NAME = "$(TARGET_NAME)";
+  				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jianzhi.app/jianzhi";
+  			};
+  			name = Release;

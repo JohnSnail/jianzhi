@@ -1,0 +1,224 @@
+//
+//  CommendVC.m
+//  jianzhi
+//
+//  Created by li on 15/4/9.
+//  Copyright (c) 2015年 li. All rights reserved.
+//
+
+#import "CommendVC.h"
+#import "CommendCell.h"
+#import "CommendHeader.h"
+#import "DetailVC.h"
+#import "CustomVC.h"
+#import "ComSingleton.h"
+
+static const CGFloat MJDuration = 2.0;
+#define MJRandomData [NSString stringWithFormat:@"随机数据---%d", arc4random_uniform(1000000)]
+@interface CommendVC ()
+{
+    NSInteger count;
+    NSInteger pageNumber;
+}
+@property (strong, nonatomic) NSMutableArray *data;
+@property (strong, nonatomic) NSMutableArray *imageArray;
+@end
+
+@implementation CommendVC
+-(NSMutableArray *)mutableArray
+{
+    if (!_mutableArray) {
+        count=0;
+        pageNumber=1;
+        _mutableArray=[[NSMutableArray alloc] init];
+    }
+    return _mutableArray;
+}
+-(NSMutableArray *)data
+{
+    if (!_data) {
+        _data=[[NSMutableArray alloc] init];
+    }
+    return _data;
+}
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self example];
+    UILabel *titleText = [[UILabel alloc] initWithFrame: CGRectMake(0, 0, 200, 44)];
+    titleText.textAlignment=NSTextAlignmentCenter;
+    titleText.backgroundColor = [UIColor clearColor];
+    titleText.textColor=[UIColor whiteColor];
+    titleText.text=@"同学兼职";
+    titleText.font=[UIFont fontWithName:@"Helvetica-Bold" size:18.0];
+    [titleText sizeToFit];
+    self.navigationItem.titleView=titleText;
+    self.navigationItem.rightBarButtonItem=[LMButton setSizeButton:CGRectMake(0, 0, 52, 14) WithImg:@"Private" andSelector:@selector(typeCustomVC) andTarget:self];
+    self.navigationItem.leftBarButtonItem=[LMButton setSizeButton:CGRectMake(0, 0, 44, 14) WithImg:@"city" andSelector:@selector(typeCustomVC) andTarget:self];
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    [ComSingleton sharedInstance].status = 0;
+}
+
+-(void)typeCustomVC
+{
+    CustomVC *vc=LM_CREATE_OBJECT(CustomVC);
+    vc.hidesBottomBarWhenPushed=YES;
+    LM_PUSH;
+}
+#pragma mark - 刷新方法
+- (void)example
+{
+    //__weak typeof(self) weakSelf = self;
+    
+    [self.commendTable addLegendHeaderWithRefreshingTarget:self refreshingAction:@selector(loadNewData:)];
+    // 隐藏时间
+    //隐藏时间显示
+    //self.businessTableview.header.updatedTimeHidden = YES;
+    // 马上进入刷新状态
+    [self.commendTable.header beginRefreshing];
+    self.commendTable.header.hidden=YES;
+    // 添加传统的上拉刷新
+    // 设置回调（一旦进入刷新状态就会调用这个refreshingBlock）
+    [self.commendTable addLegendFooterWithRefreshingTarget:self refreshingAction:@selector(loadMore:)];
+}
+-(void)loadMore:(id)my
+{
+    for (int i = 0; i<5; i++) {
+        [self.data addObject:MJRandomData];
+    }
+    
+    if (my==[MJRefreshLegendFooter class]) {
+        TLog(@"输出当前的 视图%@",my);
+    }else
+    {
+        TLog(@"输出当前的 视图%@",my);
+    }
+    //__weak typeof(self) weakSelf = self;
+    // 2.模拟2秒后刷新表格UI（真实开发中，可以移除这段gcd代码）
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(MJDuration * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        // 刷新表格
+        [self.commendTable reloadData];
+        
+        // 拿到当前的下拉刷新控件，结束刷新状态
+        [self.commendTable.footer endRefreshing];
+        [self.commendTable.header endRefreshing];
+        if (self.data.count>14) {
+            [self.commendTable.footer noticeNoMoreData];
+        }
+    });
+}
+-(void)loadNewData:(id)mjrefresh
+{
+    for (int i = 0; i<5; i++) {
+        [self.data addObject:MJRandomData];
+    }
+    
+    if (mjrefresh==[MJRefreshLegendFooter class]) {
+        TLog(@"输出当前的 视图%@",mjrefresh);
+    }else
+    {
+        TLog(@"输出当前的 视图%@",mjrefresh);
+    }
+    //__weak typeof(self) weakSelf = self;
+    // 2.模拟2秒后刷新表格UI（真实开发中，可以移除这段gcd代码）
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(MJDuration * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        // 刷新表格
+        [self.commendTable reloadData];
+        
+        // 拿到当前的下拉刷新控件，结束刷新状态
+        [self.commendTable.footer endRefreshing];
+        [self.commendTable.header endRefreshing];
+        if (self.data.count>14) {
+            [self.commendTable.footer noticeNoMoreData];
+        }
+    });
+}
+#pragma mark - 加载数据
+-(void)getNetworkData:(NSInteger)page andSize:(NSInteger)size
+{
+    
+}
+#pragma mark - tableview代理方法
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    if (section==0) {
+        return 200;
+    }
+    return 1;
+}
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    if (section == 0)
+    {
+        CommendHeader* header = [[[NSBundle mainBundle] loadNibNamed: @"CommendHeader" owner: self options: nil] lastObject];//[_imageArray count]
+        NSMutableArray *tempArray = [NSMutableArray array];
+        for (int i = 0 ; i <4 ; i++)
+        {
+            //HeaderModel *model=[_imageArray objectAtIndex:i];
+            SGFocusImageItem *item = [[SGFocusImageItem alloc] initWithTitle:@"title" image:@"http://d.hiphotos.baidu.com/image/pic/item/d1160924ab18972bef5397e5e5cd7b899e510ab7.jpg" tag:i];
+            //TLog(@"输出id%@",model.adId);
+            [tempArray addObject:item];
+        }
+        SGFocusImageFrame *imageFrame = [[SGFocusImageFrame alloc] initWithFrame:CGRectMake(0, 0, header.bounds.size.width, header.bounds.size.height-40) delegate:self focusImageItems:tempArray andView:header];
+        [header addSubview:imageFrame];
+        return header;
+    }
+    return nil;
+}
+- (void)foucusImageFrame:(SGFocusImageFrame *)imageFrame didSelectItem:(SGFocusImageItem *)item
+{
+    TLog(@"chuchu%ld,11111111,%@",(long)item.tag,item.title);
+}
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return self.data.count;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [self tableView:tableView cellForRowAtIndexPath:indexPath];
+    return cell.frame.size.height;
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 1;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *notice=@"CommendCell";
+    CommendCell *cell=[tableView dequeueReusableCellWithIdentifier:notice];
+    if (!cell) {
+        cell =[[[NSBundle mainBundle] loadNibNamed:@"CommendCell" owner:self options:nil] lastObject];
+        cell.selectionStyle=UITableViewCellSelectionStyleNone;
+    }
+    //cell.textLabel.text=@"显示数据";
+//    BureauListModel *model=[self.mutableArray objectAtIndex:indexPath.section];
+//    [cell showData:model];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    DetailVC *vc=LM_CREATE_OBJECT(DetailVC);
+    vc.hidesBottomBarWhenPushed=YES;
+    LM_PUSH;
+}
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

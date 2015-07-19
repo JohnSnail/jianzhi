@@ -1,0 +1,17 @@
+***************
+*** 7,13 ****
+  	<key>CFBundleExecutable</key>
+  	<string>$(EXECUTABLE_NAME)</string>
+  	<key>CFBundleIdentifier</key>
+- 	<string>com.jianzhi.jianzhi</string>
+  	<key>CFBundleInfoDictionaryVersion</key>
+  	<string>6.0</string>
+  	<key>CFBundleName</key>
+--- 7,13 ----
+  	<key>CFBundleExecutable</key>
+  	<string>$(EXECUTABLE_NAME)</string>
+  	<key>CFBundleIdentifier</key>
++ 	<string>com.wanju.combo</string>
+  	<key>CFBundleInfoDictionaryVersion</key>
+  	<string>6.0</string>
+  	<key>CFBundleName</key>
