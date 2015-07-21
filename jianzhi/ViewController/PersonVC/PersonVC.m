@@ -30,8 +30,6 @@
     [self initHeadView];
     
     [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(setUserData) name: @"loginAction" object: nil];
-    
-    
 }
 -(void)setPersonFrame
 {
@@ -166,7 +164,11 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 8;
+    if ([[CommUtils getAllowQQLogin] integerValue] == 0) {
+        return 7;
+    }else{
+        return 8;
+    }
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
