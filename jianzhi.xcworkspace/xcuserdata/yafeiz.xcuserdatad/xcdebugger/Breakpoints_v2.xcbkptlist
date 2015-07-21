@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "jianzhi/ViewController/PersonVC/PersonVC.m"
-            timestampString = "458964360.595037"
+            timestampString = "459140497.866164"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
             landmarkName = "-schColEnrollTime"
             landmarkType = "5">
          </BreakpointContent>
@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "jianzhi/ViewController/PersonVC/PersonVC.m"
-            timestampString = "457527813.514658"
+            timestampString = "459140497.866164"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "-schColEnrollTime"
             landmarkType = "5">
          </BreakpointContent>
