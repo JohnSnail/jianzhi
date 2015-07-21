@@ -91,7 +91,7 @@
 #define sSecret @"f05352dd509d500c6a3ed67f931e93ac"
 
 //appID
-#define AppStoreAppId @"994070056"
+#define AppStoreAppId @"905005862"
 
 //==获取当前设备的宽度
 #define kWidth [UIScreen mainScreen].bounds.size
